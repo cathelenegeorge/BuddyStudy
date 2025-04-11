@@ -1,6 +1,7 @@
 streamlit
 openai
 langchain
+langchain-openai
 pdfplumber
 python-pptx
 python-docx
