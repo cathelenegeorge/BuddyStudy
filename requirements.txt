@@ -1,0 +1,15 @@
+streamlit
+openai
+langchain
+pdfplumber
+python-pptx
+python-docx
+pypdf
+pandas
+matplotlib
+tiktoken
+python-dotenv
+docx2txt
+Pillow
+requests
+toolz
