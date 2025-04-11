@@ -1,19 +1,15 @@
-# Streamlit App Framework
 streamlit
-
-# File Handling
-pdfplumber
-docx2txt
-python-pptx
-
-# LLM Integration (GPT-4o via OpenAI)
 openai
 langchain
-langchain-openai
-langchain-community
-
-# Environment Variable Handling
+pdfplumber
+python-pptx
+python-docx
+pypdf
+pandas
+matplotlib
+tiktoken
 python-dotenv
-
-# Utility
-tqdm
+docx2txt
+Pillow
+requests
+toolz
