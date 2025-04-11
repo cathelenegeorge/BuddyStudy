@@ -267,4 +267,9 @@ with tab5:
         if st.session_state.pomodoro_running:
             st.session_state.pomodoro_running = True
             st.session_state.current_phase = "Break"
+    if c2.button("⏹️ Reset"):
+        st.session_state.pomodoro_running = False
+        ring_holder.markdown("⏱️ Timer Reset", unsafe_allow_html=True)
+        status_holder.empty()
 
+    st.markdown(f"🔥 **Pomodoro Streaks Completed**: {st.session_state.streak}") 

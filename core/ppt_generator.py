@@ -4,8 +4,9 @@ from openai import OpenAI
 import os
 import tempfile
 import time
+from config import OPENAI_API_KEY
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 def generate_slide_content(topic):
     prompt = f"""
