@@ -6,8 +6,9 @@ import os
 import tempfile
 import re
 import streamlit as st
+from config import OPENAI_API_KEY
 
-llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3)
+llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3,api_key=OPENAI_API_KEY)
 flashcard_prompt = PromptTemplate(
     input_variables=["summary", "count"],
     template="""

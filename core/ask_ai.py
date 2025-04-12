@@ -1,8 +1,9 @@
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI
+from config import OPENAI_API_KEY
 
-llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3)
+llm = ChatOpenAI(model_name="gpt-4o", temperature=0.3,api_key=OPENAI_API_KEY)
 
 doubt_prompt = PromptTemplate(
     input_variables=["query", "context"],
